@@ -17,7 +17,6 @@ int main() {
     int numero_de_pontos_turisticos;
     int numero_de_pontos_turisticos_b;
 
-
     printf("Digite o estado: \n");
     scanf("%19s", estado);
 
@@ -38,8 +37,6 @@ int main() {
 
     printf("Quantos pontos turisticos esta cidade possui? \n");
     scanf("%d", &numero_de_pontos_turisticos);
-
-
 
     printf("Digite o segundo estado: \n");
     scanf("%19s", estado_b);
@@ -62,7 +59,6 @@ int main() {
     printf("Quantos pontos turisticos esta cidade possui? \n");
     scanf("%d", &numero_de_pontos_turisticos_b);
 
-
     printf("estado: %s \n", estado);
     printf("cidade: %s \n", cidade);
     printf("codigo: %s \n", codigo);
@@ -78,7 +74,6 @@ int main() {
     printf("área_b: %f \n", area_b);
     printf("PIB_b: %f \n", PIB_b);
     printf("numero_de_pontos_turisticos_b: %d \n", numero_de_pontos_turisticos_b);
-
 
     return 0;     
 }
